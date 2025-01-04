@@ -1,0 +1,37 @@
+.styled-list-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .styled-list-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .styled-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .styled-list-item {
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    background-color: #e0f7fa;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .styled-list-item:hover {
+    background-color: #b2ebf2;
+    cursor: pointer;
+  }
+  
